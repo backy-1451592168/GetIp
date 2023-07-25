@@ -10,7 +10,7 @@ RUN npm install
 COPY . /app/
 
 # 设置环境变量
-ENV PORT=3000
+ENV PORT=7819
 
 # 暴露容器的端口，用于与宿主机通信
 EXPOSE $PORT

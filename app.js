@@ -17,7 +17,7 @@ app.get('/get-ip', (req, res) => {
   res.json({ ...data })
 });
 
-const port = 3000;
+const port = 7819;
 // 当服务器成功启动并开始监听指定的端口后，会执行这个回调函数里的代码块。
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
